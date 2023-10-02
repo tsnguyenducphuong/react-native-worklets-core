@@ -36,7 +36,7 @@ def JS_RUNTIME = {
   // Check if Hermes is enabled in app setup
   def appProject = rootProject.allprojects.find { it.plugins.hasPlugin('com.android.application') }
   //if (appProject?.hermesEnabled?.toBoolean()) {
-    return "hermes"
+    //return "hermes"
   //}
 
   // Use JavaScriptCore (JSC) by default
